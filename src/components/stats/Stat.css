@@ -1,0 +1,27 @@
+.stat-container{
+    display: flex;
+    flex-direction: column; 
+    width: 10rem !important ;
+}
+
+.stat-title{
+    /* font-family: 'Inter'; */
+    font-size: 14px;
+    font-weight: 400;
+    /* color : #8B8D97; */
+
+}
+
+
+.value{
+    font-family:  'Poppins';
+    font-size: 22px;
+    color: #45464E;
+    font-weight: 500;
+}
+
+.value-container{
+    display: flex;
+    gap : 8px;
+    gap : 6px;
+}

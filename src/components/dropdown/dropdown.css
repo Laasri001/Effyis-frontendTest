@@ -1,0 +1,19 @@
+.select-container{
+    width: 99px;
+    height: 30px;
+    border: none;
+
+    outline: none;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    border-radius: 0.5rem;
+    font-size: 14px;
+}
+
+.select-option{
+    color: #D23565;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+}

@@ -1,0 +1,110 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border-radius: 1rem;
+}
+
+.card {
+    width: 90%;
+    height: 90%;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-title {
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    color: #8B8D97;
+}
+
+.week {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #BEC0CA;
+}
+
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 31px;
+    height: 32px;
+}
+
+.title {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    color: #45464E;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    margin-right: 2rem;
+}
+
+.title-filter {
+    display: flex;
+    /* align-items: center; */
+}
+
+.container {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.value {
+    font-family: 'Poppins';
+    font-size: 22px;
+    color: #45464E;
+    font-weight: 400;
+}
+
+.stat-container {
+    display: flex;
+    flex-direction: column;
+    width: 10rem !important;
+}
+
+.value-container {
+    display: flex;
+    gap: 6px;
+}
+
+.pourcent {
+    color: #519C66;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.charts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem;
+}
+
+.card-auto-width {
+    flex: 1;
+    margin: 10px;
+}

@@ -1,0 +1,289 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap : 2rem;
+    width: 94%;
+}
+
+.nav{
+    width: 100%;
+}
+
+.cardStyle{
+    background-color: white;
+    height: auto;
+    flex-grow : 1;
+    flex-basis: 0;
+    
+}
+.cardStyle1{
+    background-color: white;
+    height: auto;
+    width: 30%;
+    
+}
+
+.charts-cards{
+    display: flex;
+    width: 94%;
+}
+
+.left-div{
+    width: 66%;
+}
+
+
+.right-div{
+    width: 34%;
+}
+
+.top-left{
+    display: flex;
+    gap : 2rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.right-top-left{
+    display: flex;
+    flex-direction: column;
+    gap : 2rem;
+    width: 52%;
+    flex-grow : 1;
+    flex-basis: 0;
+}
+
+.left-top-left{
+    display: flex;
+    width : 48%;
+}
+
+.stats-cards{
+    background-color: white;
+    flex-grow : 1;
+    flex-basis: 0;
+}
+
+.bottom-left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.barChart{
+    width: 80%;
+    background-color: white;
+    flex-grow : 1;
+    flex-basis: 0;
+    padding: 1rem 1rem;
+}
+
+
+.testCss{
+    width: 100%;
+    background-color: white;
+}
+.barCss{
+    width: 100%;
+    background-color: white;
+}
+.chartContainer{
+    padding: 1rem;
+}
+
+.statStyle{
+    width: 33%;
+    height: 10rem;
+    background-color: white;
+    
+}
+
+.containerStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+.top-cards{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.stat-style{
+    width: 100%;
+    gap: 2rem;
+    height: 50%;
+    background-color: white;
+}
+.product-style{
+    width: 100%;
+    gap: 2rem;
+    height: 50%;
+    background-color: #D23565;
+}
+
+
+
+.right-card{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.bottom-cards{
+    display: flex;
+    gap: 2rem;
+}
+
+.chartContainer{
+    width: 80%;
+    padding: 2rem;
+}
+
+.iconStyle{
+    color : #D23565;
+}
+
+.productIcon{
+    color : white;
+    
+}
+.product-backGround{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.empty-card-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width : 600px) {
+
+    .statStyle{
+        width: 90%;
+    }
+    .top-cards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .bottom-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-div{
+        width: 100%;
+    }
+    .top-left{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-top-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .testCss{
+        width: 90%;
+    }
+    .right-top-left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-style{
+        width: 90%;
+        height: 10rem;
+    }
+    .stat-style{
+        width: 90%;
+        height: 10rem;
+    }
+    .containerStyle{
+        width: 50%;
+    }
+    .barCss{
+        width: 100%;
+    }
+    .bottom-left{
+        width: 90%;
+    }
+
+    .right-div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .right-card{
+        width: 90%;
+        height: 30rem;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Ajoutez vos styles pour les tablettes ici */
+    .top-cards{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .statStyle{
+        width: 45%;
+    }
+    .bottom-cards{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .top-left{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-top-left{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .right-top-left{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .product-style{
+        width: 45%;
+        height: 10rem;
+    }
+    .stat-style{
+        width: 45%;
+        height: 10rem;   
+    }
+    .right-div{
+        width: 100%;
+    }
+    .right-card{
+        height: 30rem;
+    }
+    
+  }
