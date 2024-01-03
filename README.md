@@ -25,7 +25,7 @@ Once you have Node.js and your chosen package manager installed, you're ready to
 
 2. **Navigate to the project directory:**
     ```bash
-    cd effyis-frontend
+    cd Effyis-frontendTest
     ```
 
 3. **Install dependencies:**
